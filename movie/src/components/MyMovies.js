@@ -4,8 +4,21 @@ const MyMovies = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    // Make a GET request to server to fetch user's movies
-    setMovies(/*response from server*/);
+    async function fetchData() {
+      try {
+        const response = await fetch('https://api.example.com/mymovies');
+        if (response.ok) {
+          const data = await response.json();
+          setMovies(data);
+        } else {
+          console.error('Failed to fetch user\'s movies from server');
+        }
+      } catch (error) {
+        console.error('Failed to fetch user\'s movies from server', error);
+      }
+    }
+
+    fetchData();
   }, []);
 
   return (

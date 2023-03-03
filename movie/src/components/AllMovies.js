@@ -4,9 +4,21 @@ const AllMovies = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    // Make a GET request to server to fetch all movies
-    // Set the response from the server to the movies state
-    setMovies(/*response from server*/);
+    async function fetchData() {
+      try {
+        const response = await fetch('https://api.npoint.io/00329fcf520d620e67e9/films/');
+        if (response.ok) {
+          const data = await response.json();
+          setMovies(data);
+        } else {
+          console.error('Failed to fetch movies from server');
+        }
+      } catch (error) {
+        console.error('Failed to fetch movies from server', error);
+      }
+    }
+
+    fetchData();
   }, []);
 
   return (
@@ -15,11 +27,12 @@ const AllMovies = () => {
       {movies.map((movie) => (
         <div key={movie.id}>
           <h3>{movie.title}</h3>
-          <p>{movie.year}</p>
+          <p>{movie.poster}</p>
+          <p>{movie.description}</p>
           <button>Add to My Movies</button>
         </div>
       ))}
-    </div> // This closing tag was missing
+    </div>
   );
 };
 

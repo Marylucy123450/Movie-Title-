@@ -12,9 +12,26 @@ const MovieForm = () => {
     setYear(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Make a POST request to server to add new movie
+
+    try {
+      const response = await fetch(`https://api.npoint.io/00329fcf520d620e67e9/films/`);
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        // Handle successful response
+        // ...
+      } else {
+        // Handle failed response
+        // ...
+      }
+    } catch (error) {
+      console.error(error);
+      // Handle error
+      // ...
+    }
   };
 
   return (
