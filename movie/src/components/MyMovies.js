@@ -6,7 +6,7 @@ const MyMovies = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('https://api.example.com/mymovies');
+        const response = await fetch('https://api.themoviedb.org/3');
         if (response.ok) {
           const data = await response.json();
           setMovies(data);

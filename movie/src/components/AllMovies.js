@@ -6,7 +6,7 @@ const AllMovies = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('https://api.npoint.io/00329fcf520d620e67e9/films/');
+        const response = await fetch('https://api.themoviedb.org/3');
         if (response.ok) {
           const data = await response.json();
           setMovies(data);
