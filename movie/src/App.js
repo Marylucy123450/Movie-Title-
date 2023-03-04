@@ -1,21 +1,19 @@
 
 import './App.css';
+import SearchMovie from './components/SearchMovie';
 import Login from './components/Login';
 import MovieForm from './components/MovieForm';
 import MyMovies from './components/MyMovies';
 import AllMovies from './components/AllMovies';
-import SignIn from './components/SignIn';
-
 
 function App() {
   return (
     <div>
     <Login/>
+    <SearchMovie/>
     <MovieForm/>
     <AllMovies/>
     <MyMovies/>
-    <SignIn/>
-  
    
     </div>
   );
