@@ -1,40 +1,61 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #f7f7f7;
+  --font-size-lg: 1.5rem;
+  --spacing-lg: 2rem;
+}
+
 .homepage {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  background-color: #f7f7f7;
+  background-color: var(--secondary-color);
 }
 
-.container-lg {
+.container {
   width: 60%;
-  text-align: center;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: white;
+  margin: var(--spacing-lg) auto;
+  padding: var(--spacing-lg);
+  background-color: #fff;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+.btn {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-.btn-primary:hover {
+.btn:hover {
   background-color: #0069d9;
   border-color: #0062cc;
 }
 
-.fs-4 {
-  font-size: 1.5rem;
+.btn--primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
-/* Add styles for the footer */
+.btn--primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.font--lg {
+  font-size: var(--font-size-lg);
+}
+
 .footer {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--primary-color);
+  color: #fff;
   padding: 1rem;
   width: 100%;
   text-align: center;
