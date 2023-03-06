@@ -23,11 +23,13 @@ function Homepage() {
         </button>
       </div>
       <Routes>
+        
         {/* Define routes for login, register, and pages components */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/pages" element={<Pages />} />
       </Routes>
+
     </div>
   );
 }
