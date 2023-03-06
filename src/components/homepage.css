@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: backend;
-  min-height: 100vh;
+  min-height: 99vh;
   background-color: var(--secondary-color);
 }
 
