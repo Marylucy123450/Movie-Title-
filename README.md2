@@ -1,0 +1,100 @@
+Frontend README
+Project Name
+Description of the project.
+
+Technologies Used
+List of technologies used in the project.
+
+HTML
+CSS
+JavaScript
+React
+Getting Started
+Instructions for getting the project running on a local machine.
+
+Clone the repository: git cloneFrontend README
+Project Name
+Description of the project.
+
+Technologies Used
+List of technologies used in the project.
+
+HTML
+CSS
+JavaScript
+React
+Getting Started
+Instructions for getting the project running on a local machine.
+
+#Clone the repository: git clone Frontend README
+Project Name
+Description of the project.
+
+#Technologies Used
+List of technologies used in the project.
+
+HTML
+CSS
+JavaScript
+React
+#Getting Started
+Instructions for getting the project running on a local machine.
+
+Clone the repository: git clone https://github.com/Marylucy123450/Movie-Title-Frontend/new/main
+Install dependencies: npm install
+Start the development server: npm start
+Open http://localhost:3000 in a browser to view the app.
+Folder Structure
+Description of the folder structure.
+
+public: Contains public assets such as index.html.
+src: Contains the source code for the project.
+components: Contains reusable UI components.
+pages: Contains the top-level pages of the app.
+utils: Contains utility functions used throughout the app.
+App.js: The root component of the app.
+index.js: The entry point for the app.
+README.md: This file.
+Contributing
+Instructions for contributing to the project.
+
+License
+Description of the project's license.
+Install dependencies: npm install
+Start the development server: npm start
+Open http://localhost:3000 in a browser to view the app.
+Folder Structure
+Description of the folder structure.
+
+public: Contains public assets such as index.html.
+src: Contains the source code for the project.
+components: Contains reusable UI components.
+pages: Contains the top-level pages of the app.
+utils: Contains utility functions used throughout the app.
+App.js: The root component of the app.
+index.js: The entry point for the app.
+README.md: This file.
+Contributing
+Instructions for contributing to the project.
+
+#License
+Description of the project's license.
+Install dependencies: npm install
+Start the development server: npm start
+Open http://localhost:3000 in a browser to view the app.
+Folder Structure
+Description of the folder structure.
+
+public: Contains public assets such as index.html.
+src: Contains the source code for the project.
+components: Contains reusable UI components.
+pages: Contains the top-level pages of the app.
+utils: Contains utility functions used throughout the app.
+App.js: The root component of the app.
+index.js: The entry point for the app.
+README.md: This file.
+Contributing
+Instructions for contributing to the project.
+
+#License
+Description of the project's license.
