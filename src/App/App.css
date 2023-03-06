@@ -1,0 +1,15 @@
+displaybody {
+    background-image: url("/src/images/avatar.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  
+  .container-lg {
+    text-align: center;
+  }

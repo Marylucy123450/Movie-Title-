@@ -1,0 +1,20 @@
+.movies {
+    font-size: medium;
+  }
+  
+  .film h2 {
+    font-size: medium;
+  }
+  
+  .film p {
+    font-size: medium;
+  }
+  
+  .add-film input[type="text"] {
+    font-size: medium;
+  }
+  
+  .add-film button {
+    font-size: medium;
+  }
+  
